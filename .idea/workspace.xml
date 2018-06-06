@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c5fdcea-0c24-43a1-998e-841c7169450b" name="Default" comment="" />
+    <list default="true" id="7c5fdcea-0c24-43a1-998e-841c7169450b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +33,7 @@
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/domain/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
+            <state relative-caret-position="915">
               <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -43,12 +46,12 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/data-prod.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-end-line="6" />
+              <caret line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientRestControllerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClientRestControllerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/clientlog/controller/ClientRestControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="213">
@@ -60,23 +63,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControllerExceptionHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/controller/advice/ControllerExceptionHandler.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/service/ClientService.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="15">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerExceptionHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/controller/advice/ControllerExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/data-test.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="64" />
+              <caret line="5" column="64" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -96,7 +105,7 @@
       <file leaf-file-name="ClientServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/service/ClientServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+            <state relative-caret-position="480">
               <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,7 +117,7 @@
       <file leaf-file-name="ClientRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/repository/ClientRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="90">
               <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -117,28 +126,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrudRepository.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.7.RELEASE/spring-data-commons-2.0.7.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ClientRestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/controller/ClientRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
+            <state relative-caret-position="315">
               <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
                 <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#1048#1049#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,6 +161,9 @@
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
@@ -175,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/clientlog/form/ClientForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/clientlog/dto/ClientForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/clientlog/dto/ClientDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/clientlog/dto/Clien.java" />
@@ -216,7 +214,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/clientlog/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/src/test/resources/data.sql" />
         <option value="$PROJECT_DIR$/src/test/resources/test.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/data-prod.sql" />
         <option value="$PROJECT_DIR$/src/test/resources/data-test.sql" />
         <option value="$PROJECT_DIR$/src/main/java/org/clientlog/domain/Client.java" />
@@ -226,6 +223,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/clientlog/repository/ClientRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/clientlog/service/ClientServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/clientlog/controller/ClientRestControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -246,12 +245,15 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,146 +261,10 @@
               <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
               <item name="clientlog" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="advice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -617,6 +483,7 @@
       <workItem from="1527697697639" duration="1283000" />
       <workItem from="1527700896942" duration="3251000" />
       <workItem from="1527913215116" duration="26570000" />
+      <workItem from="1528276496429" duration="259000" />
     </task>
     <servers />
   </component>
@@ -653,7 +520,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31104000" />
+    <option name="totallyTimeSpent" value="31363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -671,26 +538,26 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.42545456" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969698" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32969698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32969698" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -761,6 +628,16 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/clientlog/controller/ClientRestControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="81" column="78" selection-start-line="81" selection-start-column="78" selection-end-line="81" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.7.RELEASE/spring-data-commons-2.0.7.RELEASE-sources.jar!/org/springframework/data/domain/PageImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-124">
@@ -779,10 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="744" column="27" selection-start-line="744" selection-start-column="27" selection-end-line="744" selection-end-column="27" />
-          <folding>
-            <element signature="e#22807#22808#0" expanded="true" />
-            <element signature="e#22841#22842#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,41 +691,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
-          <folding>
-            <element signature="e#1371#1372#0" expanded="true" />
-            <element signature="e#1411#1412#0" expanded="true" />
-            <element signature="e#2612#2613#0" expanded="true" />
-            <element signature="e#2657#2658#0" expanded="true" />
-            <element signature="e#2955#2956#0" expanded="true" />
-            <element signature="e#3002#3003#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/search/ClientHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/search/ClientHelper.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/dto/PageRequestDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -888,10 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -916,23 +758,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/search/specification/SearchType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/search/specification/SearchType.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/dto/ClientRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,9 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,17 +819,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.2.RELEASE/spring-boot-autoconfigure-2.0.2.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/clientlog/controller/advice/ControllerExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1011,13 +829,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/dto/SavedClientDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/dto/SavedClientDTO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/exception/InvalidPageRequestException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1029,9 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,24 +851,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/data.sql" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/test.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1079,7 +875,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/service/ClientService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="120">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1089,7 +885,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.7.RELEASE/spring-data-commons-2.0.7.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="315">
           <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
         </state>
       </provider>
@@ -1097,13 +893,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/data-prod.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-end-line="6" />
+          <caret line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/domain/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
+        <state relative-caret-position="915">
           <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1120,23 +916,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/controller/ClientRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="315">
           <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
             <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/repository/ClientRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="90">
           <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1147,13 +939,13 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/data-test.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="64" />
+          <caret line="5" column="64" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/controller/advice/ControllerExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
+        <state relative-caret-position="330">
           <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1163,7 +955,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/clientlog/service/ClientServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="480">
           <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1178,6 +970,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
